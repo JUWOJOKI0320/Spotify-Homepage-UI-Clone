@@ -1,0 +1,773 @@
+* {
+    background-color: #000101;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one {
+    overflow: hidden;
+    position: fixed;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #121212;
+    height: 110px;
+    width: 420px;
+}
+
+.one a {
+    position: relative;
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+}
+
+.one a:hover{
+    color: white;
+}
+
+.one a i {
+    margin: 20px;
+    left: 5px;
+    top: -10px;
+    font-size: 30px;
+    background-color: #121212;
+    position: relative;
+    display: block;
+    bottom: 25px;
+}
+
+
+span{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14.5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    background-color: #121212;
+}
+
+
+.two{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 125px;
+    border-radius: 5px;
+    background-color: #121212;
+    height: 743px;
+    width: 420px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+.twoone{
+    position: relative;
+    background-color:#121212;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    left: 20px;
+    top: 20px;
+}
+
+.twoone i{
+    position: relative;
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.twoone i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.twoone i:first-child {
+    position: relative;
+    margin-right: 6em;
+}
+
+
+.twoone i:nth-child(2):hover,
+.twoone i:nth-child(3):hover{
+    padding: 1px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.twoone span{
+    vertical-align: middle;
+    letter-spacing: 0px;
+}
+
+.twotwo{
+    left: 20px;
+    top: 20px;
+    position: relative;
+    display: flex;
+    gap: 7px;
+    background-color: transparent;
+}
+
+.twotwo h4{
+    padding: 7px 12px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #49474762;
+    font-weight: 500;
+    font-size:13.5px;
+    color: #fff;
+    position: relative;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.twotwo h4:hover{
+    background-color: #424141da;
+    cursor: pointer;
+}
+
+.twothree{
+    color: gray;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 20px;
+    top: 7em;
+    gap: 4px;
+    background-color: transparent;
+}
+
+.twothree i{
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.twothree span{
+    vertical-align: middle;
+    font-size: 14px;
+    letter-spacing: 0px;
+    background-color: transparent;
+}
+
+.twothree i:nth-child(1){
+    margin-right: 16em;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.twothree i:nth-child(1):hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.twothree i:nth-child(2){
+    transition: transform 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+
+.twothree span{
+    position: relative;
+    right: 103%;
+}
+
+.twothree i:nth-child(2):hover{
+    transform: scale(1.03);
+    color: white;
+    cursor: pointer;
+}
+
+.twomusics{
+    left:25px;
+    top: 15px;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    margin: 30px 0 75px 0;
+}
+
+.twomusics a{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.twomusics a img{
+    margin:20px 10px 65px -10px;
+    width: 110.66px;
+    border-radius: 5px;
+    background-color:transparent;
+    padding: 10px 10px 60px 10px;
+}
+
+.twomusics a img:hover{
+    background-color: #292b296e;
+    padding: 10px 10px 60px 10px;
+    cursor:pointer;
+}
+
+.text1{
+    font-size: 12.5px;
+    margin-top: -115px;
+    margin-bottom: 15px;
+    position: relative;
+    background-color: transparent;
+    color: white;
+}
+
+.text1 span{
+    font-size: 11px;
+    color: gray;
+    background-color: transparent;
+    position: relative;
+    right: 15px;
+}
+
+.three{
+    overflow-x:hidden ;
+    overflow-y: auto;
+    position: fixed;
+    left:435px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #292b29, rgb(27, 26, 26), rgb(22, 22, 22));
+    height: 860px;
+    width: 1480px;
+}
+
+.song_info{
+    position: relative;
+    background-color: transparent;
+}
+
+.song_info h1,.song_info h4{
+    position: relative;
+    bottom: 90px;
+    left: 15rem;
+    background-color: transparent;
+    color: rgba(0, 255, 170, 0.774);
+}
+
+.lyrics{
+    position: relative;
+    right: 150px;
+    bottom: 90px;
+    background-color: transparent;
+}
+
+.three pre{
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 1.5;
+}
+
+.three h5{
+    position: relative;
+    display: inline-block;
+    left: 1100px;
+    justify-content: right;
+    background-color: transparent;
+    bottom: 45px;
+    color: rgb(158, 157, 157);
+    transition: color 0.3s ease-in-out;
+}
+
+.three h5:hover{
+    text-decoration: underline;  
+    color: white;
+    cursor: pointer;  
+}
+
+.ytm span{
+    left: 1060px;
+    position: relative;
+    color: gray;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+}
+
+.ytm span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.rp span{
+    left: 1060px;
+    position: relative;
+    color: gray;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+}
+
+.rp span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.threeone{
+    color: gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 20px;
+    top: 15px;
+    gap: 4px;
+    background-color: transparent;
+}
+
+.threeone i{
+    color:gray;
+    font-size: 30px;
+    padding: 2px;
+    font-weight: lighter;
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.37);
+    transition: color 0.3s ease-in-out;
+}
+
+
+.threetwo{
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    gap: 10px;
+    top: 20px;
+    left: 22px;
+}
+
+.threetwo span{
+    color: transparent;
+    background-color: transparent;
+}
+
+.threetwo h4:nth-child(1){
+    color: black;
+    background-color: white;
+}
+
+.threetwo h4{
+    padding: 7px 12px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #49474762;
+    font-weight: 500;
+    font-size:13.5px;
+    color: #fff;
+    position: relative;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.threetwo h4:hover{
+    background-color: #424141da;
+    cursor: pointer;
+}
+
+.threethree{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    justify-content:right;
+    gap: 13px;
+    bottom:100px;
+    right: 30px;
+}
+
+.threethree h4{
+    font-size: 13px;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 50px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.threethree i{
+    position: relative;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.685);
+    padding: 7px 12px;
+    background-color: #00000075;
+    border-radius:50px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.threethree span{
+    background-color: transparent;
+    position: relative;
+    bottom: 4px;
+    right: 6px;
+}
+
+.threethree h4:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.threethree i:hover{
+    transform: scale(1.03);
+    color:white ;
+    cursor: pointer;
+}
+
+.threethree img{
+    width: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #00000075;
+    transition: transform 0.3s ease-in-out;
+}
+
+.threethree img:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.three h3{ 
+    background-color: transparent;
+    position: relative;
+    display: inline;
+    color: white;
+    font-size: 21px;
+    left: 25px;
+    bottom: 40px;
+}
+
+.Music1{
+    background-color: transparent;
+    bottom: 45px;
+    left: 18px;
+    position: relative;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(9, 1fr); /* Increase the number of columns to 8 */
+}
+
+.Music1 a{
+    background-color: transparent;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.Music1 a img{
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px 10px 70px 10px;
+    background-color: transparent;
+}
+
+.Music1 a img:hover{
+    background-color:#292b296e;
+    padding: 10px 10px 70px 10px;
+    cursor:pointer;
+}
+
+.text{
+    position: relative;
+    left: 10px;
+    bottom: 60px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    cursor:default;
+}
+
+.text:hover{
+    cursor: pointer;
+}
+
+.Music1 span{
+    position: relative;
+    background-color: transparent;
+    right: 15px;
+    color: gray;
+}
+
+.Music2{
+    bottom: 45px;
+    left:18px;
+    position: relative;
+    display:inline-block;
+    background-color: transparent;
+    margin: 30px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); /* Increase the number of columns to 8 */
+}
+
+.Music2 a{
+    background-color: transparent;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+
+.Music2 a img{
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px 10px 70px 10px;
+    background-color: transparent;
+}
+
+.Music2 a img:hover{
+    background-color: #292b296e;
+    padding: 10px 10px 70px 10px;
+    cursor:pointer;
+}
+
+.Music2 span{
+    position: relative;
+    background-color: transparent;
+    right: 15px;
+    color: gray;
+}
+
+.MP3{
+    overflow:hidden;
+    left: 2px;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    height: 80px;
+    width: 1905px;
+    background-color:transparent;
+    top: 860px;
+}
+
+.MP3 img{
+    position: relative;
+    right: 42%;
+    top: 17px;
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+.mptext{
+    background-color: transparent;
+    position: relative;
+    top: 27px;
+    display: inline;
+    font-size: 12px;
+    right: 49rem;
+    z-index: 1;
+    color: rgb(216, 214, 214);
+}
+
+.mptext span{
+    font-size: 11px;
+    display: inline;
+    position: relative;
+    background-color: transparent;
+    right: 15px;
+    color: gray;
+}
+
+.mptext:hover{
+    cursor:pointer;
+    color: white;
+}
+
+.mptext span:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    color: white;
+}
+
+.MP3 audio{
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 900px;
+    bottom: 15px;
+    left: 27%;
+}
+
+.MP3 audio::-webkit-media-controls-panel{
+    background-color:#000101;
+    position: relative;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.MP3 audio::-webkit-media-controls-play-button{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 425px;
+    bottom: 20px;
+}
+
+.MP3 audio::-webkit-media-controls-current-time-display{
+    color: white;
+    position: absolute;
+    left: 80px;
+}
+
+.MP3 audio::-webkit-media-controls-time-remaining-display{
+    color: white;
+    position:absolute;
+    position: absolute;
+    left: 710px;
+}
+
+.MP3 audio::-webkit-media-controls-timeline{
+    background-color:white;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 0 0px 0;
+    margin: 100px;
+    position: relative;
+    top: 21px;
+}
+
+.MP3 audio::-webkit-media-controls-volume-slider{
+}
+
+.MP3 audio::-webkit-media-controls-mute-button{
+}
+
+
+.control1{
+    background-color: transparent;
+    padding: 0px;
+    margin: 0;
+    position: relative;
+    right:100px;
+    top: 13px;
+    font-size: 18px;
+}
+
+.control1 i{
+    background-color: transparent;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color:gray;
+    padding: 0px;
+}
+
+.control1 i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.control1 i:nth-child(2),
+.control1 i:nth-child(3){
+    background-color: transparent;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.control3{
+    background-color: transparent;
+    position: relative;
+    left: 8px;
+    top: 13px;
+    font-size: 18px;
+}
+
+.control3 i{
+    background-color: transparent;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color:gray;
+    padding: 0px;
+}
+
+.control3 i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.control3 i:nth-child(1){
+    background-color: transparent;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+.control2{
+    position:absolute;
+    display: flex;
+    columns: gray;
+    left: 1545px;
+    top: 35px;
+}
+
+.control2 i{
+    display: inline-block;
+    margin: 0 9px;
+    color: gray;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out,transform 0.3s ease-in-out;
+}
+
+.control2 i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.control2 i:nth-child(1){
+    font-size: 13px;
+    padding: 3px 1px;
+    border: 1px solid gray;
+}
+
+
+.control2 i:nth-child(5){
+    color: black;
+    border-radius: 20px;
+    padding: 0 70px 0 5px;
+    background-color: white;
+}
+
+.takip{
+    position:absolute;
+    height: 70px;
+    width: 50px;
+    right: 1345px;
+    top: 10px;
+    background-color:#000101;
+}
+
+.takip1{
+    position:absolute;
+    height: 70px;
+    width: 50px;
+    right: 30em;
+    top: 10px;
+    background-color:#000101;
+}
